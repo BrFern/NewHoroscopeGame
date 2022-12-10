@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battlegrounds</title>
+    <link rel="stylesheet" href ="../decor/game.css" />
+    <script src = "../actions/characterselector.js"></script>
+    
+    <h1 id="welcome"> Welcome to the battlegrounds, prepare yourself!</h1>
+</head>
+<body>
+    <div class="container">
+        <div class = "dice-wrappper">
+            <h1 id="playerChoice">  </h1>
+            <p id = "player">
+               
+            </p>
+            <img src="../decor/images/dice/dice1.png" id="die-1" />
+                
+            <img src="../decor/images/dice/dice2.png" id="die-2" />
+            
+            <h1> </h1>
+            <p id="computer">
+
+            </p>
+        </div>
+        <button id= "roll-dice"; onclick="roll();">Roll the dice!</button>
+    </div>
+
+    <div id="return-buttons"> 
+        <button OnClick = "location.href = 'start.html'"> Return to Homepage </button>
+        <button OnClick = "location.href = 'characterselector.html'"> Return to Character Page </button>
+      </div>
+      <script src = "../actions/diceroller.js"></script>
+</body>
+</html>
