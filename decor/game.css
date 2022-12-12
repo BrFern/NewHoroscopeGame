@@ -69,3 +69,11 @@ button:hover{
 
     }
 }
+
+.dice-wrapper {
+    width: 90%; 
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    
+}
